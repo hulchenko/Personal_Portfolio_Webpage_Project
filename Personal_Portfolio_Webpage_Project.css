@@ -1,4 +1,10 @@
-#welcome-section {
+nav {
+position: fixed;
+top: 0px;
+left:0px;
+  }
+
+  #welcome-section {
   padding-top: 0px;
   margin-top: 0px;
   display: block;
