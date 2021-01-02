@@ -3,7 +3,8 @@
 }
 
 body {
-background-color: white;
+  background-color: #EEEBFE;
+  background-size: cover;
 font-family: 'Goldman', cursive;
 margin: 0;
 }
@@ -18,6 +19,7 @@ top: 0px;
 left:0px;
 right: 0px;
 padding: 5px;
+opacity: 0.95;
 z-index: 2;
   }
 
@@ -30,8 +32,12 @@ z-index: 2;
 }
 
 .nav-link:hover {
+  display: block;
+  font-size: 25px;
   color: white;
+  margin-bottom: -20px;
 }
+
 
 header {
   background-image: url("https://i.pinimg.com/originals/32/d2/a4/32d2a4001121ce419d551a38f9a35acc.png");
@@ -64,11 +70,58 @@ header {
 
  header h1 {
    font-size: 60px;
+   margin:0;
  }
 
  header p {
    font-size: 35px;
  }
+
+#projects {
+  margin: 20px;
+  max-width: 100%;
+}
+
+#projects h2 {
+  text-align: center;
+  color: #39CCCC;
+}
+
+#project img {
+  max-width: 490px;
+  margin: 20px;
+  border: 2px solid #39CCCC;
+  border-radius: 20px;
+}
+
+#project img:hover {
+  display: block;
+  border: white;
+  margin-bottom: 51px;
+}
+
+#project p {
+  text-align: center;
+  color: #39CCCC;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ #project p:hover {
+   color: white;
+   text-shadow: 1px 1px 1px black;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /*#welcome-section {
   padding-top: 0px;
   margin-top: 0px;
@@ -115,9 +168,15 @@ padding-bottom: 1px;
 footer {
   background-color: #001F3F;
   color: white;
+  opacity: 0.95;
   text-align: center;
   bottom: 0;
   padding: 22px;
+}
+
+span {
+  padding: 20px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
