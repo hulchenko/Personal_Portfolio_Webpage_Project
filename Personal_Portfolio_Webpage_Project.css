@@ -18,13 +18,14 @@ top: 0px;
 left:0px;
 right: 0px;
 padding: 22px;
+z-index: 2;
   }
 
 .nav-link {
   color: #39CCCC;
   text-decoration: none;
   position: relative;
-  font-size: 20px;
+  font-size: 22px;
   padding: 20px;
 }
 
@@ -33,7 +34,7 @@ padding: 22px;
 }
 
 header {
-  background-image: url("/home/hulchenko/Personal_Portfolio_Webpage_Project/it_background_image.jpeg");
+  background-image: url("https://i.pinimg.com/originals/32/d2/a4/32d2a4001121ce419d551a38f9a35acc.png");
   background-size: cover;
    background-position: center center;
    color: #fff;
@@ -47,13 +48,13 @@ header {
 
  header::after {
    content: '';
-   background-color: #000;
+   background-color: #001F3F;
    position: absolute;
    top: 0;
    left: 0;
    right: 0;
    bottom: 0;
-   opacity: 0.8;
+   opacity: 0.6;
  }
 
  header * {
@@ -75,10 +76,47 @@ header {
   height: 100vh;
   }
 /* The height of the welcome section should be equal to the height of the viewport */
+
+.social-background {
+background-image: url("https://i.pinimg.com/originals/32/d2/a4/32d2a4001121ce419d551a38f9a35acc.png");
+background-size: cover;
+background-position: bottom;
+color: white;
+padding-bottom: 1px;
+  }
+
+  .social-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+  }
+
+.social-list a {
+  color: #39CCCC;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.social-list a:hover {
+
+  color: white;
+  font-size: 35px;
+}
+
+  #social {
+  text-align: center;
+}
+
+#social h2 {
+  margin-bottom: 0;
+}
+
 footer {
   background-color: #001F3F;
   color: white;
   text-align: center;
+  bottom: 0;
   padding: 22px;
 }
 
