@@ -1,7 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
 
+#mid {
+  padding-top: 55px;
+}
 body {
   background-color: #EEEBFE;
   background-size: cover;
