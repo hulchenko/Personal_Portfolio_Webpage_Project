@@ -186,8 +186,30 @@ span {
   font-size: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 570px) {
   h1 {
-    color: green;
+    text-align: center;
+  }
+
+ nav {
+background-color: #001F3F;
+display: flex;
+ flex-wrap: wrap;
+justify-content: center;
   }
 }
+
+@media screen and (max-width: 460px) {
+  h1 {
+    text-align: center;
+  }
+
+
+@media screen and (max-width: 292px) {
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
