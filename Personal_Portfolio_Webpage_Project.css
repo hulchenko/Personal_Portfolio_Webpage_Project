@@ -103,9 +103,7 @@ header {
 }
 
 #project img:hover {
-  display: block;
   border: white;
-  margin-bottom: 51px;
 }
 
 #project p {
