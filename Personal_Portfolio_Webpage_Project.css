@@ -95,7 +95,8 @@ header {
 }
 
 #project img {
-  max-width: 490px;
+  max-width: 450px;
+  max-height: 200px;
   margin: 20px;
   border: 2px solid #39CCCC;
   border-radius: 20px;
@@ -129,13 +130,6 @@ a {
   flex-wrap: wrap;
 }
 
-/*#welcome-section {
-  padding-top: 0px;
-  margin-top: 0px;
-  display: block;
-  height: 100vh;
-  }
-/* The height of the welcome section should be equal to the height of the viewport */
 
 .social-background {
 background-image: url("https://i.pinimg.com/originals/32/d2/a4/32d2a4001121ce419d551a38f9a35acc.png");
